@@ -2,10 +2,10 @@
    include_once('index_session.php');
    @session_start() ;
    $_SESSION['scriptcase']['index']['glo_nm_perfil']          = "principal";
-   $_SESSION['scriptcase']['index']['glo_nm_path_prod']       = "/prod";
+   $_SESSION['scriptcase']['index']['glo_nm_path_prod']       = "/principal/prod";
    $_SESSION['scriptcase']['index']['glo_nm_path_conf']       = "";
-   $_SESSION['scriptcase']['index']['glo_nm_path_imagens']    = "/file/img";
-   $_SESSION['scriptcase']['index']['glo_nm_path_imag_temp']  = "/tmp";
+   $_SESSION['scriptcase']['index']['glo_nm_path_imagens']    = "/principal/file/img";
+   $_SESSION['scriptcase']['index']['glo_nm_path_imag_temp']  = "/principal/tmp";
    $_SESSION['scriptcase']['index']['glo_nm_path_doc']        = "/var/www/doc";
     //check publication with the prod
     $NM_dir_atual = getcwd();
