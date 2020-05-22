@@ -1,7 +1,3 @@
-# 3x3
-Funções para servidores
-
-
 # Comandos Git
 
 ## Listar credenciais
